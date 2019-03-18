@@ -9,8 +9,8 @@ A bunch of garbage that I use to pretend it makes me faster in a command line.
 brew install stow # On OSX
 
 # Basic Installation
-git clone https://github.com/xanderriga/dots
-cd dots
+git clone https://github.com/xanderriga/dotfiles
+cd dotfiles
 git submodule init
 git submodule update
 ./install.sh
