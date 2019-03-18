@@ -1,10 +1,10 @@
 [alias]
-  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-  rim = rebase -i master
-  cp = cherry-pick
   co = checkout
   cob = checkout -b
+  cp = cherry-pick
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
   ri = rebase -i
+  rim = rebase -i master
   s = status
 [core]
   editor = vim
