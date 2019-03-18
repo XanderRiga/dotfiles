@@ -1,0 +1,21 @@
+[alias]
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  rim = rebase -i master
+  cp = cherry-pick
+  co = checkout
+  cob = checkout -b
+  ri = rebase -i
+  s = status
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore.global
+[color]
+  ui = true
+[branch]
+  autosetuprebase = always
+[push]
+  default = simple
+[credential]
+  helper = cache --timeout=3600
+[merge]
+  tool = vimdiff
