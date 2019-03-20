@@ -1,10 +1,15 @@
 [alias]
+  a = add
+  aa = add .
+  c = commit
   co = checkout
   cob = checkout -b
   cp = cherry-pick
+  fp = push -f
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
   ri = rebase -i
   rim = rebase -i master
+  rih = "!f() { rebase -i HEAD~$1 }; f"
   s = status
 [core]
   editor = vim
