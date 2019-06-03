@@ -11,6 +11,7 @@
   cp = cherry-pick
   fp = push -f
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  r = rebase
   ri = rebase -i
   rim = rebase -i master
   rih = "!f() { git rebase -i HEAD~$1; }; f"
