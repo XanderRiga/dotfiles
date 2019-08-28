@@ -3,6 +3,7 @@
 [alias]
   a = add
   aa = add .
+  ai = add -i
   bd = branch -d
   bD = branch -D
   b = branch
