@@ -22,6 +22,7 @@
   rim = rebase -i master
   rih = "!f() { git rebase -i HEAD~$1; }; f"
   s = status
+  blameC = blame -w -C -C -C
 [core]
   editor = vim
   excludesfile = ~/.gitignore.global
